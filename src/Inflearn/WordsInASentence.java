@@ -9,7 +9,6 @@ public class WordsInASentence {
         // 정수 m을 가장 작은 값으로 초기화
         int m = Integer.MIN_VALUE, pos;
 
-
         while ((pos = str.indexOf(' ')) != -1) {
             String tmp = str.substring(0, pos); // 공백이 나타나기 전까지 단어로 쪼갠다.
             int len = tmp.length(); // 쪼개진 단어의 길이
