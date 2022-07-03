@@ -24,7 +24,6 @@ public class B11365 {
 
         }
 
-
         bw.flush();
 
         br.close();
