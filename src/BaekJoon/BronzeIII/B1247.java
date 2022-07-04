@@ -9,7 +9,6 @@ import java.math.BigInteger;
 public class B1247 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         BigInteger s = new BigInteger("0");
 
@@ -32,9 +31,7 @@ public class B1247 {
 
         }
 
-        bw.flush();
         br.close();
-        bw.close();
 
     }
 }
