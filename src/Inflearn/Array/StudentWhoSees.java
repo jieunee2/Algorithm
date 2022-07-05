@@ -1,4 +1,4 @@
-package Inflearn;
+package Inflearn.Array;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
