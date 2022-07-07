@@ -11,7 +11,7 @@ public class AppointingAnInterimLeader {
             int cnt = 0;
             for (int j = 1; j <= n; j++) { // i번째와 비교할 j번째 학생
                 for (int k = 1; k <= 5; k++) { // 1반부터 5반을 의미
-                    if (arr[i][k] == arr[j][k]) { // i번째 학생의 k학년과 반과 j번째 학생의 k학년의 반이 같을 경우l
+                    if (arr[i][k] == arr[j][k]) { // i번째 학생의 k학년과 반과 j번째 학생의 k학년의 반이 같을 경우
                         cnt++;
                         break;
                     }
